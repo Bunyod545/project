@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+    height: 40px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: #d32f2f;
+}
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.header-text {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header h1 {
+    font-size: 48px;
+    color: #000;
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.2;
+}
+.header h1 span {
+    color: #d32f2f;
+}
+.header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.buttons button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttons button:nth-child(2) {
+    background-color: white;
+    color: #d32f2f;
+    border: 2px solid #d32f2f;
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    background: #d32f2f;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.countdown div {
+    text-align: center;
+}
+.chef-image {
+    width: 450px;
+    height: auto;
+    margin: 0 auto 30px; 
+}
+.info-box {
+    background-color: #f8d7da;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.info-box img {
+    width: 80px;
+    position: absolute;
+    top: -20px;
+    left: -40px; 
+}
+.info-box p {
+    margin: 0;
+    font-size: 16px;
+}
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rules {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.rules h2 {
+    font-size: 32px;
+    color: #d32f2f;
+    margin-bottom: 30px; 
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.step {
+    flex: 1 0 30%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+.step img {
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #d32f2f;
+}
+.step p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 50px; 
+}
+.rules-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.rules-buttons button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.rules-buttons button:nth-child(2) {
+    background-color: white;
+    color: #d32f2f;
+    border: 2px solid #d32f2f;
+}
+.prizes {
+    background-color: #d32f2f;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.prizes h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.prizes p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.prizes-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.prizes-item {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+.prizes-item img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+.prizes-item p {
+    font-size: 16px;
+}
+.bonus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.bonus img {
+    width: 80px;
+}
+.products {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.products h2 {
+    font-size: 32px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+.products-items {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    position: relative; 
+}
+.products-item {
+    flex: 1;
+    max-width: 200px; 
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.products-item img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.arrow {
+    position: absolute;
+    top: 55%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #d32f2f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow-left {
+    left: -15px; 
+}
+.arrow-right {
+    right: -15px; 
+}
+.arrow-down {
+    position: absolute;
+    top: 110%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #d32f2f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.center-dots {
+    display: none; 
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-text {
+        margin-right: 0;
+    }
+    .chef-image {
+        margin: 20px auto 30px; 
+    }
+    .countdown {
+        margin-top: 20px;
+    }
+    .info-box img {
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .info-content {
+        text-align: center;
+    }
+    .steps {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .step {
+        width: 100%;
+    }
+    .prizes-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .prizes-item {
+        width: 100%;
+    }
+    .products-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .products-item {
+        width: 100%;
+    }
+    .arrow {
+        display: none; 
+    }
+}
